@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans');
 
-body{
+body, article{
 	display: flex;
 	flex-wrap: 	wrap;
 }
