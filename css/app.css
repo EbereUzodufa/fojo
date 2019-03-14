@@ -132,7 +132,7 @@ nav{
     background: #FF473A;
     padding: 30px 10px;
     right: 0;
-    position: absolute;
+    position: relative;
 }
 
 nav ul {
