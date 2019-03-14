@@ -133,3 +133,8 @@ nav{
     right: 0;
     position: absolute;
 }
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
