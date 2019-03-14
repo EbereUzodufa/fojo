@@ -30,3 +30,8 @@ p.logo-text{
 img.imgFullWidth.pageImage {
     max-width: 100%;
 }
+
+section{
+	width: calc(100% - 20px);
+	padding: 0px 10px;
+}
