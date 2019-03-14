@@ -28,6 +28,12 @@ body{
 	height: 25px;
 }
 
+button#btnMobileToggle {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+}
+
 div.navContainer{
 	display: none;
 }
