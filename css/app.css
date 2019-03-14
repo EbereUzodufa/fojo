@@ -36,7 +36,9 @@ button#btnMobileToggle {
     border: 0px;
 }
 
-
+i.fa.fa-bars {
+    font-size: 1.2em;
+}
 
 div.navContainer{
 	display: none;
