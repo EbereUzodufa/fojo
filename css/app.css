@@ -16,3 +16,13 @@ body{
 div.navContainer{
 	display: none;
 }
+
+p.logo-text{
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 0.625em;
+	line-height: normal;
+	text-transform: uppercase;
+	margin: 0px;
+}
