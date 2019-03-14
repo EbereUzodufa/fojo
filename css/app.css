@@ -26,3 +26,7 @@ p.logo-text{
 	text-transform: uppercase;
 	margin: 0px;
 }
+
+img.imgFullWidth.pageImage {
+    max-width: 100%;
+}
