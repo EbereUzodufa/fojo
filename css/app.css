@@ -23,7 +23,7 @@ body{
 	line-height: normal;
 }
 
-#btnMobileToggle{
+#btnMobileToggle, .navImage{
 	width: 25px;
 	height: 25px;
 }
