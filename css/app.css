@@ -5,8 +5,12 @@ body, article{
 	flex-wrap: 	wrap;
 }
 
-body{
+body, img.imgFullWidth.pageImage{
 	width: 100%;
+	max-width: 100%;
+}
+
+body{
 	margin: 0px;
 	font-size: 1rem;
 	font-family: 'Lato', sans-serif;
@@ -25,10 +29,6 @@ p.logo-text{
 	font-size: 0.625em;
 	text-transform: uppercase;
 	margin: 0px;
-}
-
-img.imgFullWidth.pageImage {
-    max-width: 100%;
 }
 
 section{
