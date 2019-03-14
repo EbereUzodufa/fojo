@@ -114,3 +114,14 @@ footer p {
 footer{
 	margin-top: 30px;
 }
+
+.overlay{
+	max-height: 100vh;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 75px;
+	right: 0;
+	background: rgba(255, 255, 255, 0.75);
+}
