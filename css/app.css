@@ -142,4 +142,7 @@ nav ul {
 p.navItem {
     margin: auto 5px;
     color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.25em;
+    text-transform: uppercase;
 }
