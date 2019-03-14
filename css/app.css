@@ -2,7 +2,7 @@
 
 body, header, article, .container{
 	display: flex;
-	flex-wrap: 	wrap;
+	flex-wrap: wrap;
 }
 
 body, header, footer, img.imgFullWidth.pageImage, .container{
