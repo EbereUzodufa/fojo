@@ -7,7 +7,7 @@ const currentYear = () => {
 
 // On application start, perform these
 const startApp = () => {
-	
+	currentYear();
 	
 };
 
