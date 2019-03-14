@@ -5,7 +5,7 @@ body, header, article, .container, a.navLink{
 	flex-wrap: wrap;
 }
 
-body, header, footer, img.imgFullWidth.pageImage, .container, .navContainer{
+body, header, footer, img.imgFullWidth.pageImage, .container, .navContainer, a.navLink{
 	width: 100%;
 	max-width: 100%;
 }
