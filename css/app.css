@@ -12,3 +12,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #000;
 }
+
+div.navContainer{
+	display: none;
+}
