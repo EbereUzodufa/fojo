@@ -23,6 +23,11 @@ body{
 	line-height: normal;
 }
 
+#btnMobileToggle{
+	width: 25px;
+	height: 25px;
+}
+
 div.navContainer{
 	display: none;
 }
