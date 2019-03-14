@@ -141,6 +141,7 @@ nav ul {
 
 a.navLink{
   	text-decoration: none;
+  	padding: 10px;
 }
 
 p.navItem {
