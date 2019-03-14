@@ -5,9 +5,13 @@ body, article, .container{
 	flex-wrap: 	wrap;
 }
 
-body, footer, img.imgFullWidth.pageImage, .container{
+body, header, footer, img.imgFullWidth.pageImage, .container{
 	width: 100%;
 	max-width: 100%;
+}
+
+header{
+	padding: 15px 10px;
 }
 
 body{
@@ -32,7 +36,6 @@ p.logo-text{
 	font-weight: normal;
 	font-size: 0.625em;
 	text-transform: uppercase;
-	margin: 0px;
 }
 
 section{
