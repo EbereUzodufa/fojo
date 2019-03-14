@@ -5,7 +5,7 @@ body, article{
 	flex-wrap: 	wrap;
 }
 
-body, img.imgFullWidth.pageImage{
+body, footer, img.imgFullWidth.pageImage{
 	width: 100%;
 	max-width: 100%;
 }
@@ -61,9 +61,12 @@ h3{
 	font-size: 1.1em
 }
 
+.btn, footer{
+    background-color: #FF473A;	
+}
+
 .btn{
 	width: 250px;
-    background-color: #FF473A;
     color: #fff;
     padding: 10px;
     margin: 10px auto;
@@ -80,4 +83,8 @@ footer>p {
     font-weight: bold;
     text-transform: capitalize;
     margin: 10px;
+}
+
+footer{
+	margin-top: 30px;
 }
