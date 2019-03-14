@@ -11,6 +11,8 @@ body{
 	font-size: 1rem;
 	font-family: 'Lato', sans-serif;
 	color: #000;
+	font-style: normal;
+	line-height: normal;
 }
 
 div.navContainer{
@@ -18,11 +20,9 @@ div.navContainer{
 }
 
 p.logo-text{
-	font-family: Montserrat;
-	font-style: normal;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
 	font-size: 0.625em;
-	line-height: normal;
 	text-transform: uppercase;
 	margin: 0px;
 }
@@ -34,4 +34,10 @@ img.imgFullWidth.pageImage {
 section{
 	width: calc(100% - 20px);
 	padding: 0px 10px;
+}
+
+h1, h2, h3{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #FF473A;
 }
