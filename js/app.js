@@ -1,3 +1,8 @@
+// Global Declares
+const btnToggle = document.getElementById('btnMobileToggle');
+const body = document.body;
+
+
 // Get current year
 const currentYear = () => {
 	let d = new Date();
@@ -5,22 +10,46 @@ const currentYear = () => {
 	document.getElementById('currentYear').innerHTML = year;
 }
 
+// Set overlay for THREE.MinEquation
+const setOverlay = (value) =>{
+	let setValue = value;
+	console.log(setValue);
+	const overlay = document.querySelector('div.overlay');
+	// let eleWidth = '100%'
+	// overlay.style.width = '100%';
+	if (setValue == true){
+		// overlay.style.display = 'none';
+		overlay.style.width = '100%';
+		overlay.scrollTop = 0;
+		body.style.overflow = 'hidden';
+		console.log('true', overlay);
+	} else{
+		// overlay.style.display = 'block';
+		overlay.style.width = '0%';
+		body.style.overflow = 'visible';
+		console.log('false', overlay);
+	}
+};
+
 // On application start, perform these
 const startApp = () => {
 	currentYear();
-	const btn = document.getElementById('btnMobileToggle');
 	const iAwesome = document.querySelector('i.fa.fa-bars');
+	let giveOverlay = false;
 	// console.log(iAwesome);
-	const body = document.body;
-	btn.addEventListener('click', function() {
+	btnToggle.addEventListener('click', function() {
 		// btn.style.backgroundColor initially returns ''
-		if (btn.style.backgroundColor == '' || btn.style.backgroundColor == 'transparent') {
-			btn.style.backgroundColor = "#FF473A";
+		if (btnToggle.style.backgroundColor == '' || btnToggle.style.backgroundColor == 'transparent') {
+			btnToggle.style.backgroundColor = "#FF473A";
 			iAwesome.style.color = '#fff';
+			giveOverlay = true;
 		} else{
-			btn.style.backgroundColor = "transparent";
+			btnToggle.style.backgroundColor = "transparent";
 			iAwesome.style.color = '#000';
+			giveOverlay = false;
 		}
+		setOverlay(giveOverlay);
+		console.log(giveOverlay);
 		// console.log('good');
 	});
 };
