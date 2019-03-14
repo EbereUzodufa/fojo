@@ -118,7 +118,7 @@ footer{
 .overlay{
 	max-height: 100vh;
 	height: 100%;
-	width: 100%;
+	width: 0;
 	position: fixed;
 	z-index: 1;
 	top: 75px;
