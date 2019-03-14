@@ -33,7 +33,10 @@ button#btnMobileToggle {
     margin-top: auto;
     margin-left: auto;
     background-color: transparent;
+    border: 0px;
 }
+
+
 
 div.navContainer{
 	display: none;
