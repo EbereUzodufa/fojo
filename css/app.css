@@ -23,6 +23,10 @@ div.navContainer{
 	display: none;
 }
 
+p{
+	margin: 0px;
+}
+
 p.logo-text{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
@@ -89,8 +93,4 @@ footer>p {
 
 footer{
 	margin-top: 30px;
-}
-
-p{
-	margin: 0px;
 }
