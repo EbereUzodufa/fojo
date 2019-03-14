@@ -139,6 +139,10 @@ nav ul {
     padding: 0;
 }
 
+a.navLink{
+  	text-decoration: none;
+}
+
 p.navItem {
     margin: auto 5px;
     color: #fff;
