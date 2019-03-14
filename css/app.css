@@ -40,6 +40,8 @@ h1, h2, h3{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	color: #FF473A;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 h2, h3{
