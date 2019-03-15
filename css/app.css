@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans');
 
-body, header, article, .container, a.navLink{
+body, header, article, .container, a.navLink, button#btnMobileToggle{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -28,12 +28,13 @@ body{
 	height: 25px;
 }
 
-button#btnMobileToggle {
+button#btnMobileToggle{
     margin-bottom: auto;
     margin-top: auto;
     margin-left: auto;
     background-color: transparent;
     border: 0px;
+    padding: 0px;
 }
 
 i.fa.fa-bars {
