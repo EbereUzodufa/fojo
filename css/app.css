@@ -189,7 +189,7 @@ p.navItem {
 
 /*media query for screen of width 850px and greater*/
 @media screen and (min-width: 849px) {
-	div#overLayer, nav ul{
+	nav ul{
 		display: flex;
 		flex-wrap: wrap;
 	}
