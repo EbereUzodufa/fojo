@@ -46,6 +46,11 @@ i.fa.fa-bars {
 	width: 1.5em;
 }
 
+i.fas.fa-map-marker-alt, i.fas.fa-clock {
+    color: #FF473A;
+    margin: 5px;
+}
+
 nav#webNAv{
 	display: none;
 }
