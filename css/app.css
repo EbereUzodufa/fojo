@@ -66,6 +66,10 @@ p.logo-text{
 	text-transform: uppercase;
 }
 
+p.address, p.visitation-time {
+    margin: auto 0px;
+}
+
 section{
 	width: calc(100% - 20px);
 	padding: 0px 10px;
