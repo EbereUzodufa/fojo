@@ -1,5 +1,6 @@
 // Global Declares
 const btnToggle = document.getElementById('btnMobileToggle');
+// const overLayer = document.getElementById('overLayer');
 const body = document.body;
 
 
@@ -21,13 +22,14 @@ const setOverlay = (value) =>{
 		// overlay.style.display = 'none';
 		overlay.style.width = '100%';
 		overlay.scrollTop = 0;
-		body.style.overflow = 'hidden';
-		console.log('true', overlay);
+		body.classList.add('noScroll');
+		// console.log('true', overlay);
 	} else{
 		// overlay.style.display = 'block';
 		overlay.style.width = '0%';
-		body.style.overflow = 'visible';
-		console.log('false', overlay);
+		body.classList.remove('noScroll');
+		// overLayer.classList.remove('overlay');
+		// console.log('false', overlay);
 	}
 };
 
@@ -49,7 +51,7 @@ const startApp = () => {
 			giveOverlay = false;
 		}
 		setOverlay(giveOverlay);
-		console.log(giveOverlay);
+		// console.log(giveOverlay);
 		// console.log('good');
 	});
 };
