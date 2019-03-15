@@ -179,4 +179,8 @@ p.navItem {
 		max-width: 80%;
 		margin: auto;
 	}
+
+	.container.col-2 {
+	    width: 50%;
+	}
 }
