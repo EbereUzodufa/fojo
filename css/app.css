@@ -170,10 +170,6 @@ p.navItem {
     text-transform: uppercase;
 }
 
-div#overLayer{
-	display: none;
-}
-
 .noScroll{
 	overflow: hidden;
 }
