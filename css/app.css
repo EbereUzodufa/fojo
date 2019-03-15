@@ -171,3 +171,8 @@ p.navItem {
 .noScroll{
 	overflow: hidden;
 }
+
+/*media query for screen of width greater than 799px*/
+@media screen and (min-width: 799px) {
+	
+}
