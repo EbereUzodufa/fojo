@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans');
 
-body, header, article, .container, a.navLink, button#btnMobileToggle{
+body, header, article, .container, a.navLink, button#btnMobileToggle, nav{
 	display: flex;
 	flex-wrap: wrap;
 }
@@ -170,6 +170,10 @@ p.navItem {
     text-transform: uppercase;
 }
 
+div#overLayer{
+	display: none;
+}
+
 .noScroll{
 	overflow: hidden;
 }
@@ -189,5 +193,7 @@ p.navItem {
 
 /*media query for screen of width 850px and greater*/
 @media screen and (min-width: 849px) {
-	
+	.overlay{
+
+	}
 }
