@@ -71,8 +71,9 @@ p.address, p.visitation-time {
 }
 
 section{
-	width: calc(100% - 20px);
+	width: calc(100% - 30px);
 	padding: 0px 10px;
+	margin: auto;
 }
 
 h1, h2, h3{
