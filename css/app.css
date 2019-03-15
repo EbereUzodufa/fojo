@@ -193,7 +193,8 @@ div#overLayer{
 
 /*media query for screen of width 850px and greater*/
 @media screen and (min-width: 849px) {
-	.overlay{
-
+	.div#overLayer{
+		display: flex;
+		flex-wrap: wrap;
 	}
 }
