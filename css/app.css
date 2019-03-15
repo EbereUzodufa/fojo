@@ -40,6 +40,11 @@ i.fa.fa-bars {
     color: #000;
 }
 
+.fa, .fas{
+	font-size: 1.5em;
+	width: 1.5em;
+}
+
 nav#webNAv{
 	display: none;
 }
