@@ -174,5 +174,9 @@ p.navItem {
 
 /*media query for screen of width greater than 799px*/
 @media screen and (min-width: 799px) {
-	
+	section{
+		width: 800px;
+		max-width: 80%;
+		margin: auto;
+	}
 }
