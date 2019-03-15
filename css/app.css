@@ -174,7 +174,7 @@ p.navItem {
 	overflow: hidden;
 }
 
-/*media query for screen of width greater than 799px*/
+/*media query for screen of width greater than 699px*/
 @media screen and (min-width: 699px) {
 	section{
 		width: 700px;
@@ -185,4 +185,9 @@ p.navItem {
 	.container.col-2 {
 	    width: 50%;
 	}
+}
+
+/*media query for screen of width 850px and greater*/
+@media screen and (min-width: 849px) {
+	
 }
