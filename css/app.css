@@ -59,6 +59,12 @@ p{
 	margin: 0px;
 }
 
+div#logo a {
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+}
+
 p.logo-text{
 	font-family: 'Montserrat', sans-serif;
 	font-weight: normal;
