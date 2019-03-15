@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Montserrat|Open+Sans');
 
-body, header, article, .container, a.navLink, button#btnMobileToggle, nav{
+body, header, article, .container, a.navLink, button#btnMobileToggle, nav, div.navigation{
 	display: flex;
 	flex-wrap: wrap;
 }
