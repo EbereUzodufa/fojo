@@ -20,7 +20,7 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #000;
 	font-style: normal;
-	line-height: normal;
+	line-height: 1.5em;
 }
 
 #btnMobileToggle, .navImage{
@@ -64,6 +64,7 @@ p.logo-text{
 	font-weight: normal;
 	font-size: 0.625em;
 	text-transform: uppercase;
+	line-height: normal;
 }
 
 p.address, p.visitation-time {
@@ -189,14 +190,18 @@ p.navItem {
 
 /*media query for screen of width 850px and greater*/
 @media screen and (min-width: 849px) {
-	nav ul{
+	nav ul, .overlay{
 		display: flex;
 		flex-wrap: wrap;
 	}
 
+	.overlay{
+		position: inherit;
+	}
+
 	button#btnMobileToggle{display: none;}
 
-	nav{
+	nav, .overlay{
 		width: 100%;
 		padding: 0;
 		background: #fff;
