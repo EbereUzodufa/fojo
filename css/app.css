@@ -207,6 +207,10 @@ p.navItem {
 		background: #fff;
 	}
 
+	img.imgFullWidth.pageImage{
+		height: 500px;
+	}
+
 	nav ul{
 		margin: auto;
 	}
