@@ -5,7 +5,7 @@ body, header, article, .container, a.navLink, button#btnMobileToggle, nav, div.n
 	flex-wrap: wrap;
 }
 
-body, header, footer, img.imgFullWidth.pageImage, .container, .navContainer, a.navLink, div.navigation{
+body, header, footer, img.imgFullWidth.pageImage, .container, .navContainer, a.navLink, div.navigation, p.article.text{
 	width: 100%;
 	max-width: 100%;
 }
