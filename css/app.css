@@ -23,6 +23,10 @@ body{
 	line-height: 1.5em;
 }
 
+article {
+    margin: 15px auto;
+}
+
 #btnMobileToggle, .navImage{
 	width: 25px;
 	height: 25px;
