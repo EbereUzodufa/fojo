@@ -254,7 +254,7 @@ p.navItem {
 
 @media screen and (min-width: 1024px) {
 	section{
-		width: 1024px;
+		width: 900px;
 		max-width: 80%;
 		margin: auto;
 	}
