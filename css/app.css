@@ -5,7 +5,7 @@ body, section, header, article, .container, a.navLink, button#btnMobileToggle, n
 	flex-wrap: wrap;
 }
 
-body, header, footer, img.imgFullWidth.pageImage, .container, .navContainer, a.navLink, div.navigation, p.article.text, #googleMapAddress, article, form, div.fields, p.team-member.role{
+body, header, footer, img.imgFullWidth.pageImage, .container, .navContainer, a.navLink, div.navigation, p.article.text, #googleMapAddress, article, form, div.fields, p.team-member.role, section#team-members{
 	width: 100%;
 	max-width: 100%;
 }
@@ -85,6 +85,10 @@ section{
 	width: calc(100% - 30px);
 	padding: 0px 10px;
 	margin: auto;
+}
+
+section#team-members {
+    padding: 0px;
 }
 
 h1, h2, h3{
@@ -254,8 +258,22 @@ ul.article.text li::before{
 		text-align: left;
 	}
 
+	section#team-members {
+	    margin-left: 0px;
+	}
+
+	img.team-member.picture{
+		width: 150px;
+		height: 150px;
+		margin: 10px auto;
+	}
+
 	.container.col-2 {
 	    width: 50%;
+	}
+
+	.team-member.container {
+	    width: calc((100% - 10px)/4);
 	}
 }
 
