@@ -194,6 +194,10 @@ p.navItem {
 	overflow: hidden;
 }
 
+form{
+	margin: auto;
+}
+
 /*media query for screen of width greater than 699px*/
 @media screen and (min-width: 699px) {
 	section{
