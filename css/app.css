@@ -195,7 +195,12 @@ p.navItem {
 }
 
 form{
-	margin: auto;
+	margin: auto;it 
+}
+
+label, div.fields input, div.fields textarea {
+    width: 100%;
+    margin: 5px auto;
 }
 
 /*media query for screen of width greater than 699px*/
