@@ -216,6 +216,18 @@ a.contact-email, a.contact-tel{
     font-size: 1em;
 }
 
+ul.article.text li{
+	list-style: none;
+}
+
+ul.article.text li::before{
+	content: "■";
+	color: #FF473A;
+	display: inline-block;
+	width: 1em;
+	margin-left: -1em;
+}
+
 /*media query for screen of width greater than 699px*/
 @media screen and (min-width: 699px) {
 	section{
