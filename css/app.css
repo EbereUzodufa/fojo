@@ -232,6 +232,12 @@ a.contact-email, a.contact-tel{
 		flex-wrap: wrap;
 	}
 
+	section#contactPage {
+	    width: 700px;
+	    padding: 0px 20px;
+	    background: #F5F5F5;
+	}
+	
 	.overlay{
 		position: inherit;
 	}
