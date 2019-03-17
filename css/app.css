@@ -134,7 +134,7 @@ button.btn{
 	border: 0;
 }
 
-input[type="text"],input[type="email"], textarea#your-message{
+input, textarea#your-message{
 	font-size: 1.2em;
 }
 
