@@ -5,7 +5,7 @@ body, section, header, article, .container, a.navLink, button#btnMobileToggle, n
 	flex-wrap: wrap;
 }
 
-body, header, footer, img.imgFullWidth.pageImage, .container, .navContainer, a.navLink, div.navigation, p.article.text, #googleMapAddress, article, form, div.fields{
+body, header, footer, img.imgFullWidth.pageImage, .container, .navContainer, a.navLink, div.navigation, p.article.text, #googleMapAddress, article, form, div.fields, p.team-member.role{
 	width: 100%;
 	max-width: 100%;
 }
@@ -186,7 +186,7 @@ nav{
     position: relative;
 }
 
-.center-text{
+.center-text, p.team-member.role, h3.team-member.name{
 	text-align: center;
 }
 
